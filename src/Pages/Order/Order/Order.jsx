@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import useMenu from '../../../hooks/useMenu';
 import OrderTab from '../OrderTab/OrderTab';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 import orderCoverImg from '../../../assets/shop/banner2.jpg'
 
 const Order = () => {
