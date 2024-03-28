@@ -3,10 +3,10 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import Cover from "../../Shared/Cover/Cover";
 import useMenu from "../../../hooks/useMenu";
 import menuImg from "../../../assets/menu/banner3.jpg";
-import soupImg from '../../../assets/menu/soup-bg.jpg'
-import saladImg from '../../../assets/menu/salad-bg.jpg'
-import pizzaImg from '../../../assets/menu/pizza-bg.jpg'
-import dessertImg from '../../../assets/menu/dessert-bg.jpeg'
+import soupImg from "../../../assets/menu/soup-bg.jpg";
+import saladImg from "../../../assets/menu/salad-bg.jpg";
+import pizzaImg from "../../../assets/menu/pizza-bg.jpg";
+import dessertImg from "../../../assets/menu/dessert-bg.jpeg";
 import MenuCategory from "../MenuCategory/MenuCategory";
 
 const Menu = () => {
