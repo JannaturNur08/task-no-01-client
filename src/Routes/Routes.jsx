@@ -60,7 +60,9 @@ export const router = createBrowserRouter([
 			// admin routes
 			{
 				path: "users",
-				element: <AllUsers></AllUsers>,
+				element: <AdminRoute>
+					<AllUsers></AllUsers>
+				</AdminRoute>,
 			},
 			// admin only routes
 			
