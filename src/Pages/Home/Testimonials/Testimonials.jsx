@@ -13,10 +13,10 @@ import { useEffect, useState } from "react";
 const Testimonials = () => {
 	const [reviews, setReviews] = useState([]);
 	useEffect(() => {
-		fetch("reviews.json")
-			.then((res) => res.json())
-			.then((data) => setReviews(data));
-	}, []);
+        fetch('https://task-no-01-server.vercel.app/reviews')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
 	return (
 		<section>
 			<SectionTitle
