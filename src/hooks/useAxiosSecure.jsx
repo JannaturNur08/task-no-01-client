@@ -4,6 +4,7 @@ import useAuth from "./useAuth";
 
 const axiosSecure = axios.create({
 	baseURL: "https://task-no-01-server.vercel.app",
+	withCredentials: true
 });
 const useAxiosSecure = () => {
 	const navigate = useNavigate();
