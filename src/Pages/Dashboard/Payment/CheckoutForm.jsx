@@ -128,7 +128,7 @@ const CheckoutForm = () => {
                 Pay
             </button>
             <p className="text-red-600">{error}</p>
-            {transactionId && <p className="text-green-600"> Your transaction id: {transactionId}</p>}
+            {transactionId && <p className="text-green-600 font-bold"> Your transaction id: {transactionId}</p>}
 		</form>
 	);
 };
